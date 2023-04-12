@@ -2,6 +2,7 @@
 pragma solidity ^0.8.7;
 
 contract FunWithStorage {
+    
     uint256 favoriteNumber; // Stored at slot 0
     bool someBool; // Stored at slot 1
     uint256[] myArray; /* Array Length Stored at slot 2,
